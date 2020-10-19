@@ -1,0 +1,21 @@
+{
+    "name": "cronos-support/storyblok-client",
+    "description": "Storyblok Client to easily call the publishing api",
+    "type": "library",
+    "keywords": ["storyblok"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "CronosSupport\\Storyblok\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CronosSupport\\Storyblok\\Client\\Tests\\": "tests/"
+        }
+    }
+}
