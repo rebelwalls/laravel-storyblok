@@ -1,5 +1,5 @@
 {
-    "name": "cronos-support/storyblok-client",
+    "name": "rebelwalls/laravel-storyblok",
     "description": "Storyblok Client to easily call the publishing api",
     "type": "library",
     "keywords": ["storyblok"],
@@ -10,12 +10,12 @@
     },
     "autoload": {
         "psr-4": {
-            "CronosSupport\\Storyblok\\Client\\": "src/"
+            "RebelWalls\\LaravelStoryblok\\Client\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CronosSupport\\Storyblok\\Client\\Tests\\": "tests/"
+            "RebelWalls\\LaravelStoryblok\\Client\\Tests\\": "tests/"
         }
     }
 }
