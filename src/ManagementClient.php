@@ -1,6 +1,6 @@
 <?php
 
-namespace CronosSupport\Storyblok\Client;
+namespace RebelWalls\LaravelStoryblok\Client;
 
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\GuzzleException;
