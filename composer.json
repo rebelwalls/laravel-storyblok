@@ -18,5 +18,12 @@
         "psr-4": {
             "RebelWalls\\LaravelStoryblok\\Client\\Tests\\": "tests/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RebelWalls\\LaravelStoryblok\\Client\\ServiceProvider"
+            ]
+        }
     }
 }
